@@ -1,2 +1,2 @@
 # techdegree-project-6
-# Brian Kidd Profile 
+# Brian Kidd Profile Gallery
