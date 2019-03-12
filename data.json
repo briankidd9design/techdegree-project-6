@@ -7,7 +7,7 @@
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "http://briankiddmedia.com/testingGround/treehouse/project1/",
             "github_link": "https://github.com/briankidd9design/techdegree-project-1",
-            "image_urls": ["static/images/proj1_main.png", "images/proj1_spec.png"]
+            "image_urls": ["static/images/proj1_main.png", "static/images/proj1_spec.png"]
         },
         {
             "id": 1,
@@ -16,7 +16,7 @@
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "http://briankiddmedia.com/testingGround/treehouse/project2/",
             "github_link": "https://github.com/briankidd9design/techdegree-project-2",
-            "image_urls": ["static/images/proj2_main.png", "images/proj2_spec.png"]
+            "image_urls": ["static/images/proj2_main.png", "static/images/proj2_spec.png"]
         },
         {
             "id": 2,
@@ -25,7 +25,7 @@
             "technologies": ["JavaScript", "HTML", "CSS", "jQuery"],
             "live_link": "http://briankiddmedia.com/testingGround/treehouse/project3/",
             "github_link": "https://github.com/briankidd9design/techdegree-project-3",
-            "image_urls": ["static/images//proj3_main.png", "images/proj3_spec.png"]
+            "image_urls": ["static/images//proj3_main.png", "static/images/proj3_spec.png"]
         },
         {
             "id": 3,
@@ -34,7 +34,7 @@
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "http://briankiddmedia.com/testingGround/treehouse/project4/",
             "github_link": "https://github.com/briankidd9design/techdegree-project-4",
-            "image_urls": ["static/images//proj4_main.png", "images/proj24spec.png"]
+            "image_urls": ["static/images//proj4_main.png", "static/images/proj24spec.png"]
         },
         {
             "id": 4,
@@ -43,7 +43,7 @@
             "technologies": ["JavaScript", "HTML", "CSS", "JSON"],
             "live_link": "http://briankiddmedia.com/testingGround/treehouse/project5/",
             "github_link": "https://github.com/briankidd9design/techdegree-project-5",
-            "image_urls": ["static/images/proj5_main.png", "images/proj5_spec.png"]
+            "image_urls": ["static/images/proj5_main.png", "static/images/proj5_spec.png"]
         }
     ]
 }

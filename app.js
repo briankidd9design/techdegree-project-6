@@ -3,9 +3,10 @@ const data = require('./data.json');
 const app = express();
 const projects = data.projects;
 
-app.set('view engine', 'pug');
+
 app.use('/static', express.static('public'));
 
+app.set('view engine', 'pug');
 
 app.get ('/', (req, res) => {
     
@@ -16,8 +17,9 @@ app.get ('/about', (req, res) => {
     res.render('about', {projects});
 });
 
-app.get('/projects', (req, res ) => {
-	res.render ('project', {projects})
+app.get('/projects', (req, res) => {
+    //res.redirect('/');
+     res.render('project', {projects});
 });
 
 app.get ('/projects/:id', (req, res) => {
@@ -27,13 +29,12 @@ app.get ('/projects/:id', (req, res) => {
     }
     res.render('project', {id, projects});
 });
-
 app.use((req, res, next) => {
-  const err = new Error('Not Found');
-  const message = "Sorry, that page is not found.";
-  console.log(message);
-  err.status = 404;
-  next(err);
+    const err = new Error('Not Found');
+    const message = "Sorry, that page is not found.";
+    console.log(message);
+    err.status = 404
+    next(err);
 });
 
 app.use((err, req, res, next) => {
