@@ -1,6 +1,18 @@
+body {
+    background: #B2D2FF;
+  }
+  .thumbnail{
+    border: solid 4px #e6e6e6;
+  }
 
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  /*font-family: 'Merriweather', serif;*/
+  font-family: 'Slabo 27px', serif;
+  color: #33527F;;
+}
+#my-info h5{
+  color: #e6e6e6;
+  font-family: 'Oswald', sans-serif;
 }
 
   h5{
@@ -14,11 +26,12 @@ h1,h2,h3,h4,h5,p{
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
+    color: #33527F;
     font-weight: 600;
   }
 
   p{
-    font-size: 15px;
+    font-size: 16px;
     color: #666;
   }
 
@@ -27,30 +40,31 @@ h1,h2,h3,h4,h5,p{
 }
 
 .text-light{
-  color: #666;
+  color: #33527F;
+  font-family: 'Oswald', sans-serif;
 }
 
 .button{
-  background-color: #333;
+  background-color: #59697F;
 }
 
 .button:hover{
-  background-color: #111;
+  background-color: #5082C9;
 }
 
 a{
-  color: #333;
+  color: #33527F;
 }
 
 a:hover{
-  color: #111;
+  color: #fff;
 }
 
 .image{
   display: inline-block;
   max-width: 100%;
   margin-bottom: 1rem;
-  border: solid 4px #fefefe;
+  border: solid 4px #e6e6e6;
   border-radius: 0;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   line-height: 0;
@@ -58,20 +72,27 @@ a:hover{
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
-  color: #fff;
+  background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(80, 130, 201, 0.95), 
+      rgba(80, 130, 201, 0.95)
+    ),
+    /* bottom, image */
+    url(../images/portf_me_bg.png);
+  color: #e6e6e6;
   box-shadow: none !important;
 }
 
   .portfolio-me p{
     font-size: 14px;
-    color: #999;
+    color: #e6e6e6;
   }
 
   .portfolio-me a{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    color: #555;
+    color: #e6e6e6;
     font-size: 13px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
@@ -79,17 +100,17 @@ a:hover{
   }
 
   .portfolio-me a:hover{
-    color: #999;
+    color: #33527F;
   }
 
 .portfolio-breadcrumb{
   margin: 0;
   padding: 20px;
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #33527F;
 }
 
  .portfolio-breadcrumb a{
-   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-family: 'Roboto', sans-serif;
    font-weight: 600;
    font-size: 13px;
    letter-spacing: 2.5px;
@@ -100,16 +121,21 @@ a:hover{
 .portfolio-intro{
   margin: 0;
   padding: 40px 50px 30px;
+  /*background: #B2D2FF;*/
 }
 
 .portfolio-intro p{
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #33527F;
   padding-bottom: 40px;
+  font-family: 'Oswald', sans-serif;
+  color: #33527F;
 }
 
 .portfolio-index{
   margin: 0;
   padding: 10px 50px;
+  background: #B2D2FF;
+
 }
 
   .portfolio-index .thumbnail{
@@ -136,13 +162,13 @@ a:hover{
     margin-bottom: 5px;
   }
 
-.portfolio-project p{
+/*.portfolio-project p{
   border: none;
-}
+}*/
 
 .portfolio-project li{
-  font-size: 13px;
-  color: #444;
+  font-size: 14px;
+  color: #59697F;
 }
 
 .portfolio-bio{
