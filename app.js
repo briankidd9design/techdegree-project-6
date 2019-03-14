@@ -18,7 +18,6 @@ app.get ('/about', (req, res) => {
 });
 
 app.get('/projects', (req, res) => {
-    //res.redirect('/');
      res.render('project', {projects});
 });
 
@@ -29,6 +28,7 @@ app.get ('/projects/:id', (req, res) => {
     }
     res.render('project', {id, projects});
 });
+
 app.use((req, res, next) => {
     const err = new Error('Not Found');
     const message = "Sorry, that page is not found.";

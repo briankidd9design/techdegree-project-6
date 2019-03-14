@@ -3,47 +3,47 @@
         {
             "id": 0,
             "project_name": "Random Quote Generator",
-            "description": "Using Vanilla JavaScript, HTML and CSS, I created a U.S. president random quote generator. At a set interval, a new famous presidenial quote will appear on the screen or you can press a button to show another quote. I also added a feature to stop quotes from automatically loading ", 
+            "description": "Using vanilla JavaScript, HTML and CSS, I created a U.S. president random quote generator. At a set interval, a new famous presidenial quote will appear on the screen in random order, or you can press a button to show another quote. Each quote has additional data like source, citation and year.  I also added a feature to stop quotes from automatically loading. A photo of each president the quote is attributed to is also contained in the data object and displayed on the screen along with a randomly selected photo border color.", 
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "http://briankiddmedia.com/testingGround/treehouse/project1/",
             "github_link": "https://github.com/briankidd9design/techdegree-project-1",
-            "image_urls": ["static/images/proj1_main.png", "static/images/proj1_spec.png"]
+            "image_urls": ["static/images/proj1_main.png", "static/images/proj1_spec.png", "static/images/proj1_spec2.png", "static/images/proj1_spec3.png" ]
         },
         {
             "id": 1,
             "project_name": "List Pagination and Filtering",
-            "description": "Add Description", 
+            "description": "This program dynamically paginates a list of students in the HTML by using progressive enhancement, which allows the page to render even if JavaScript is disabled. The pagination links and search box features were created by unobtrusive JavaScript within the JS directory for DOM manipulation, and the number of pagination links changes dynamically depending on the number of students in the directory. The search box filters the student directory in real time with a keyup event listener, making searches faster and more user friendly.", 
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "http://briankiddmedia.com/testingGround/treehouse/project2/",
             "github_link": "https://github.com/briankidd9design/techdegree-project-2",
-            "image_urls": ["static/images/proj2_main.png", "static/images/proj2_spec.png"]
+            "image_urls": ["static/images/proj2_main.png", "static/images/proj2_spec.png", "static/images/proj2_spec2.png", "static/images/proj2_spec3.png" ]
         },
         {
             "id": 2,
             "project_name": "Interactive Form",
-            "description": "Add Description", 
+            "description": "The interactive form allows the user to enter personal information and requests and validates the user's input. So if a user inputs information that is incomplete or does not follow a typical format, error messages appear on the form for each specific error. The Register for Activites section not only disables conflicting activities, but also displays the total cost of all activities. What I am most proud of with this program is that it works even if additional activites are added to the HTML of the Register for Activities section, by using the proper built in JavaScript functions and also JS regular expressions.",
             "technologies": ["JavaScript", "HTML", "CSS", "jQuery"],
             "live_link": "http://briankiddmedia.com/testingGround/treehouse/project3/",
             "github_link": "https://github.com/briankidd9design/techdegree-project-3",
-            "image_urls": ["static/images//proj3_main.png", "static/images/proj3_spec.png"]
+            "image_urls": ["static/images//proj3_main.png", "static/images/proj3_spec.png", "static/images/proj3_spec2.png", "static/images/proj3_spec3.png" ]
         },
         {
             "id": 3,
             "project_name": "OOP Game Show App",
-            "description": "Add Description",
+            "description": "This JavaScript OOP uses a Game and a Phrase object to add letter placeholders to the browser of a randomly generated phrase. The player is able to then either click or type a letter guess. If the player is correct, then all instances of that letter are then shown, but if the player guesses wrong then he or she loses a heart: Five wrong guesses and the player loses. If the correct phrase is guessed, the overlay appears with the full phrase and then you have the option to try another phrase. If the player loses, the overlay appears with a message informing the player that he or she lost and can press start for a different phrase. Since this program uses objects you can add different properties to the Game and Phrase object and apply methods (functions that use an instnace of a class object) to the insantiated objects.",
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "http://briankiddmedia.com/testingGround/treehouse/project4/",
             "github_link": "https://github.com/briankidd9design/techdegree-project-4",
-            "image_urls": ["static/images//proj4_main.png", "static/images/proj24spec.png"]
+            "image_urls": ["static/images//proj4_main.png", "static/images/proj4_spec.png", "static/images/proj4_spec2.png", "static/images/proj4_spec3.png" ]
         },
         {
             "id": 4,
             "project_name": "Public API Requests",
-            "description": "Add Description",
+            "description": "Web APIs are being used more and more to dynamically and asynchronously add data content to websites. For this project, I used Fetch API to request a JSON object from the Random User Generator API (randomuser.me). The app parses the data to display 12 randomly selected employees. If you click on an employee, a modal will appear and give detailed informaiton about that particular employee. The user can also scroll through the users in modal view. A search feature allows the user to search through the displayed employees. ",
             "technologies": ["JavaScript", "HTML", "CSS", "JSON"],
             "live_link": "http://briankiddmedia.com/testingGround/treehouse/project5/",
             "github_link": "https://github.com/briankidd9design/techdegree-project-5",
-            "image_urls": ["static/images/proj5_main.png", "static/images/proj5_spec.png"]
+            "image_urls": ["static/images/proj5_main.png", "static/images/proj5_spec.png", "static/images/proj5_spec2.png", "static/images/proj5_spec3.png" ]
         }
     ]
 }
