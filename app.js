@@ -2,8 +2,7 @@ const express = require('express');
 const data = require('./data.json');
 const app = express();
 const projects = data.projects;
-const http = require('http');
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 5000;
 
 
 app.use('/static', express.static('public'));
