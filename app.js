@@ -3,7 +3,6 @@ const data = require('./data.json');
 const app = express();
 const projects = data.projects;
 const http = require('http');
-const hostname = '127.0.0.1';
 const port = process.env.PORT || 3000;
 
 
