@@ -1,6 +1,6 @@
 # techdegree-project-6
 # Brian Kidd Profile Gallery
-# Using the Express framework along with Node.JS I created a personal prorgramming portfolio
+# Using the Express framework along with Node.JS I created a personal programming portfolio
 #Exceeds:
 I changed the package.json file so that the app will run with npm start
 
