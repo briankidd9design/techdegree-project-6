@@ -4,7 +4,7 @@
 #Exceeds:
 I changed the package.json file so that the app will run with npm start
 
-I created an error template that will display an erro message with the error code and the error stack
+I created an error template that will display an error message with the error code and the error stack
 
 CSS: I changed the font styles and colors. I changed the background colors of all sections 
 
