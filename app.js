@@ -2,6 +2,7 @@ const express = require('express');
 const data = require('./data.json');
 const app = express();
 const projects = data.projects;
+var port = process.env.PORT || 5000;
 
 
 app.use('/static', express.static('public'));
@@ -43,6 +44,4 @@ app.use((err, req, res, next) => {
     res.render('error');
 });
 
-app.listen(3000, () => {
-    console.log('The Project application is running on localhost:3000!')
-});
+app.listen(port, () => console.log(`Listening on port ${port}`));
